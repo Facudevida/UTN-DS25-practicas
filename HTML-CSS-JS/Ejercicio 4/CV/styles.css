@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top,#242424,rgb(28, 28, 28))
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    height: 60px;
+    padding: 10px;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+nav {
+    display: flex;
+    margin-inline-start: 70px;
+    gap: 40px;
+}
+
+#titulo {
+    all: unset;
+    cursor: pointer;
+
+}
+
+nav a {
+    all: unset;
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: rgb(30, 30, 30);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+#estudios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+#estudios li {
+    margin-bottom: 7px;
+
+
+}
+
+#estudios ul {
+    margin-left: 35px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    margin:  10px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(16, 215, 142);
+    padding: 5px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 10px black;
+    box-shadow: 1px 1px 10px black;
+}
+
+.estudio {
+    height: 200px;
+    margin: 25px 0px 60px 0px;
+    color: white;
+}

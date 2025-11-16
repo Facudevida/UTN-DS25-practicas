@@ -29,3 +29,9 @@ td {
 #f2c3 {
     background-color: aqua
 }
+/*
+tr:first-child  ,
+td:first-child {
+background-color: black;
+}
+*/
